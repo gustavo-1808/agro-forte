@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte | Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-leaf"></i> Agro<span>Forte</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#sobre">Equilíbrio</a></li>
+                <li><a href="#contato" class="btn-nav">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Produzir com Força,<br>Preservar com Consciência</h1>
+            <p>O futuro do agronegócio está no equilíbrio perfeito entre a alta produtividade tecnológica e a conservação do meio ambiente.</p>
+            <a href="#pilares" class="btn-main">Conheça Nossa Visão</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="pillars">
+        <h2>Tecnologia a Serviço da Natureza</h2>
+        <p class="subtitle">Como unimos forças para um amanhã mais verde e produtivo</p>
+        
+        <div class="card-container">
+            <div class="card">
+                <i class="fa-solid fa-seedling"></i>
+                <h3>Produção Eficiente</h3>
+                <p>Otimização de lavouras com o uso de dados e IA, reduzindo o desperdício de recursos vitais.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-solar-panel"></i>
+                <h3>Energia Limpa</h3>
+                <p>Implementação de matrizes renováveis, como solar e biomassa, no coração do campo.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-droplet"></i>
+                <h3>Manejo Hídrico</h3>
+                <p>Sistemas de irrigação inteligente que preservam nossos rios e lençóis freáticos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>O Ecossistema do Amanhã</h2>
+                <p>Não existe Agro Forte sem solo rico, água limpa e clima estável. Nossa missão é liderar a transição para um modelo agrícola que não apenas retira da terra, mas também devolve a ela a sua vitalidade.</p>
+                <button id="btn-alerta" class="btn-secondary">Ver Estatística de Impacto</button>
+                <p id="texto-impacto" class="hidden">💡 Sabia? Práticas de agricultura regenerativa podem sequestrar até 1 tonelada de CO₂ por hectare ao ano!</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1530605663610-444986d34198?auto=format&fit=crop&w=600&q=80" alt="Campo tecnológico sustentável">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Junte-se à Revolução Verde</h2>
+        <p>Quer saber como transformar sua produção ou apoiar nosso projeto? Envie uma mensagem!</p>
+        
+        <form id="form-contato">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit" class="btn-submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroForte Sustentável. Todos os direitos reservados. Mantendo a terra fértil para as próximas gerações.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
